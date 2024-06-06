@@ -30,7 +30,7 @@
 //
 //
 //Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?
-public class TwoSum {
+public class twoSum_1 {
     public int[] twoSum(int[] nums, int target) {
         // Variables
         int[] indices = new int[2];

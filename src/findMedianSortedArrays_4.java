@@ -15,7 +15,7 @@
 //Output: 2.50000
 //Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
 
-public class findMedianSortedArrays {
+public class findMedianSortedArrays_4 {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         // Variables
         int[] mArr = new int[nums1.length + nums2.length]; // array that will hold the merged values
