@@ -68,6 +68,7 @@ public class longestPalindromicSubstring_5 {
     }
     public static void main(String[] args) {
         //Test Data
-        System.out.println(longestPalindrome("bb"));
+        System.out.println(longestPalindrome("babad"));
+        System.out.println(longestPalindrome("cbbd"));
     }
 }
