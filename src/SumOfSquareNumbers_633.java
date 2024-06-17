@@ -19,7 +19,7 @@ import java.lang.Math;
 public class SumOfSquareNumbers_633 {
 
     //Sqrt Int Check
-    public boolean judgeSquareSum(int c) {
+    public static boolean judgeSquareSum(int c) {
         for (long a = 0; a * a <= c; a++) {
             double b = Math.sqrt(c - a * a);
             if (b == (int) b)
